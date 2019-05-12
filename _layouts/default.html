@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.harmony.name }} | {{ site.harmony.description }}{% endif %}</title>
+        <!--site...description前面有"|", 因为排版原因, 我删掉了-->
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.harmony.name }}  {{ site.harmony.description }}{% endif %}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.harmony.meta_description }}{% endif %}">
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
