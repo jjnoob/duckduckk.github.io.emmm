@@ -9,11 +9,11 @@ permalink: /about/
   漫漫长夜, 经历狂喜与绝望, 我跌跌撞撞, 一路奔跑.
   
   
-  ## Mail
+## Mail
   
   <a href="mailto:ruilin1024@outlook.com?subject=Hello%20again">ruilin1024@outlook.com</a>
   
-  ## Links
+## Links
 
   [My github](https://github.com/duckduckk)
   
@@ -23,7 +23,7 @@ permalink: /about/
   
   [建成学长](https://icbtbo.github.io)
   
-  ## CTF-Challenges
+## CTF-Challenges
   
   [WeChall](http://www.wechall.net/challs)
   
@@ -36,14 +36,14 @@ permalink: /about/
   [BXS](http://bxs.cumt.edu.cn/challenges.php)
   
   
-  ## Algorithm-Training
+## Algorithm-Training
   
   [LintCode](https://www.lintcode.com/zh-cn/)
   
   [LeetCode](https://leetcode-cn.com/)
   
   
-  ## WEB
+## WEB
   
   [w3school国内](http://www.w3school.com.cn/)
   
@@ -55,7 +55,7 @@ permalink: /about/
  
   [Mozilla 开发者网络](https://developer.mozilla.org/zh-CN/)
   
-  ## WEB-SEC
+## WEB-SEC
   
   [Vidar Wiki](https://wiki.vidar.club/doku.php)
   
@@ -71,7 +71,7 @@ permalink: /about/
  
   [纳维安全导航](https://navisec.it/)
   
-  ## Resources
+## Resources
   
   [掘金](https://juejin.im/)
   
