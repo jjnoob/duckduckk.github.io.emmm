@@ -130,13 +130,12 @@ mysql> SHOW TABLE STATUS from RUNOOB LIKE 'runoob%'\G;   # 加上 \G，查询结
     ```
     
 3. privilegesCode表示授予的权限类型，常用的有以下几种类型:
-
-* all privileges：所有权限。
-* select：读取权限。
-* delete：删除权限。
-* update：更新权限。
-* create：创建权限。
-* drop：删除数据库、数据表权限。
+    * all privileges：所有权限。
+    * select：读取权限。
+    * delete：删除权限。
+    * update：更新权限。
+    * create：创建权限。
+    * drop：删除数据库、数据表权限。
 
 4. dbName.tableName表示授予权限的具体库或表，常用的有以下几种选项：
 
