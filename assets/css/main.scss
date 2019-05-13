@@ -376,7 +376,24 @@ div.page-content {
 }
 
 div.page-content {
-  ul {
+ul, ol {
+    padding: 0;
+    padding-left: 24px;
+    margin: 0;
+}
+li {
+    line-height: 24px;
+}
+p, ul, ol {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+ol ol, ul ol {
+    list-style-type: lower-roman;
+}
+	
+	/*  ul {
     padding: 0 0 1em 0;
     li {
       @include font-size(14px);
@@ -416,7 +433,7 @@ div.page-content {
         background-position: 0 7px;
       }
     }
-  }
+  */}
 
   dl {
     padding-bottom: 1em;
