@@ -214,25 +214,9 @@ header.main-header {
 
 
 	
-ul, ol {
-  padding-left: 30px;
-}
-
-ul li > :first-child, 
-ol li > :first-child, 
-ul li ul:first-of-type, 
-ol li ol:first-of-type, 
-ul li ol:first-of-type, 
-ol li ul:first-of-type {
-  margin-top: 0px;
-}
-
-ul ul, ul ol, ol ol, ol ul {
-  margin-bottom: 0;
-}
 
 
-	/* ul {
+ul {
     width: 100%;
     text-align: center;
     padding: 15px;
@@ -264,7 +248,7 @@ ul ul, ul ol, ol ol, ol ul {
   }
 }
 	
-*/	
+
 footer.main-footer {
   background-color: $base-00;
   color: $base-07;
@@ -295,7 +279,8 @@ footer.main-footer {
       overflow: hidden;
   }
 
-  ul.menu {
+  
+.menu {
     padding: 0 0 1em 0;
     li {
       @include font-size(12px);
