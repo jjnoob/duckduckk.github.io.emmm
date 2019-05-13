@@ -18,9 +18,7 @@
 
 
 /* --------------------------------
-
  Primary style
-
 -------------------------------- */
 
 html {
@@ -66,9 +64,7 @@ body {
 }
 
 /* --------------------------------
-
  Small Typography
-
 --------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
@@ -160,9 +156,7 @@ strong, b { font-weight: 600; }
 /* italic */
 em, i { font-style: italic; }
 /* --------------------------------
-
  Theme base
-
 --------------------------------- */
 
 // default
@@ -212,11 +206,7 @@ header.main-header {
     }
   }
 
-
-	
-
-
-ul {
+  ul {
     width: 100%;
     text-align: center;
     padding: 15px;
@@ -247,7 +237,6 @@ ul {
     }
   }
 }
-	
 
 footer.main-footer {
   background-color: $base-00;
@@ -279,8 +268,7 @@ footer.main-footer {
       overflow: hidden;
   }
 
-  
-.menu {
+  ul.menu {
     padding: 0 0 1em 0;
     li {
       @include font-size(12px);
@@ -388,7 +376,7 @@ div.page-content {
 }
 
 div.page-content {
-ul {
+  ul {
     padding: 0 0 1em 0;
     li {
       @include font-size(14px);
@@ -428,7 +416,7 @@ ul {
         background-position: 0 7px;
       }
     }
-}
+  }
 
   dl {
     padding-bottom: 1em;
@@ -458,7 +446,7 @@ ul {
       }
     }
   }
-}
+
   img {
     padding: 1em 0;
   }
@@ -510,9 +498,7 @@ body.theme-base-01 {
 }
 
 /* --------------------------------
-
  Main Header
-
 --------------------------------- */
 
 header.main-header {
@@ -530,9 +516,7 @@ footer.main-footer {
 
 
 /* ---------------------------------
-
   Blockquote
-
 ---------------------------------- */
 blockquote {
   padding: .5em 1em;
