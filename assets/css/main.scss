@@ -388,17 +388,7 @@ div.page-content {
 }
 
 div.page-content {
-li p.first {
-  display: inline-block; }
-li {
-  margin: 0; }
-ul, ol {
-  padding-left: 30px; }
-
-ul :first-child, ol :first-child {
-  margin-top: 0; }
-
-/*ul {
+ul {
     padding: 0 0 1em 0;
     li {
       @include font-size(14px);
@@ -438,7 +428,7 @@ ul :first-child, ol :first-child {
         background-position: 0 7px;
       }
     }
- */ }
+}
 
   dl {
     padding-bottom: 1em;
@@ -468,7 +458,7 @@ ul :first-child, ol :first-child {
       }
     }
   }
-
+}
   img {
     padding: 1em 0;
   }
