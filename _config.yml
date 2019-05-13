@@ -4,13 +4,13 @@
 baseurl:
 
 # Site live URL
-url: http://duckduckk.github.io
+url: https://duckduckk.github.io
 
 # Localhost
 # url: http://127.0.0.1:4000
 
 # Production URL for sitemap
-production_url: http://duckduckk.github.io
+production_url: https://duckduckk.github.io
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
