@@ -376,7 +376,18 @@ div.page-content {
 }
 
 div.page-content {
-  ul {
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+	
+/*ul {
     padding: 0 0 1em 0;
     li {
       @include font-size(14px);
@@ -416,7 +427,7 @@ div.page-content {
         background-position: 0 7px;
       }
     }
-  }
+*/  }
 
   dl {
     padding-bottom: 1em;
